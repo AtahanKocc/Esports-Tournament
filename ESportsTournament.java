@@ -22,9 +22,9 @@ import java.util.PriorityQueue;
 
         //Rank finding function
 	    double new_rank = 0.75 * player1.getRank() + 0.25 * (double) random.nextInt(100); //new rank
-        player1.setRank(new_rank);
+            player1.setRank(new_rank);
         //added to the queue.
-        queue.add(player1); 
+            queue.add(player1); 
 		 }
 	}
 	    public void printPlayers(){ 
